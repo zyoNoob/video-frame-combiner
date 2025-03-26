@@ -37,7 +37,7 @@ A Python utility that combines frames from two videos side by side into a single
 Run the script from the command line with the following arguments:
 
 ```bash
-python main.py video1.mp4 video2.mp4 output.mp4 [num_frames]
+uv run main.py video1.mp4 video2.mp4 output.mp4 [num_frames]
 ```
 
 ### Arguments
