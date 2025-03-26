@@ -20,15 +20,17 @@ A Python utility that combines frames from two videos side by side into a single
 ## Installation
 
 1. Clone this repository:
-```bash
-git clone <repository-url>
-cd video-frame-combiner
-```
+
+   ```bash
+   git clone <repository-url>
+   cd video-frame-combiner
+   ```
 
 2. Install the required dependencies:
-```bash
-pip install opencv-python numpy
-```
+
+   ```bash
+   uv sync
+   ```
 
 ## Usage
 
@@ -48,13 +50,15 @@ python main.py video1.mp4 video2.mp4 output.mp4 [num_frames]
 ### Example
 
 To combine 100 frames from two video files:
+
 ```bash
-python main.py input1.mp4 input2.mp4 combined.mp4 100
+uv run main.py input1.mp4 input2.mp4 combined.mp4 100
 ```
 
 To combine the entire videos (using the shorter video's length):
+
 ```bash
-python main.py input1.mp4 input2.mp4 combined.mp4
+uv run main.py input1.mp4 input2.mp4 combined.mp4
 ```
 
 ## Interactive Features
